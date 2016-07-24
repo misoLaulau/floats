@@ -1,0 +1,106 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	}
+	/*
+  ========================================
+  CLEARFIX
+  ========================================
+	*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+	}
+.group:after {
+  clear: both;
+	}
+.group {
+  clear: both;
+  *zoom: 1;
+	}
+	/*
+  ========================================
+  HEADER
+  ========================================
+	*/
+.logo {
+  float: left;
+  border-top: 4px solid #648880;
+  border-bottom: 4px solid #648880;
+}
+header {
+	background-color: #222;
+	margin: .5em;
+	padding: .2em;
+	border-radius: .5%;
+	height: 50px;
+	}
+header h1 {
+	color: #fff;
+	}
+.top_nav {
+	float:right;
+	}
+.top_nav li{
+	list-style: none;
+	}
+	/*
+  ========================================
+  MAIN BODY
+  ========================================
+	*/
+body {
+	background: #777;
+	}
+.container {
+	margin: .2em 0;
+	}
+a {
+	color: #fff;
+	text-decoration: none;
+	}
+section {
+	float: left;
+	width: 20%;
+	background: #fff;
+	margin: .5em;
+	padding: 24px 15px;
+	border-radius: 2%;
+	}
+.section_group {
+	background: #444;
+	padding: 10px 5px;
+	min-width: 600px;
+	}
+.inline_section {
+	display: inline-block;
+	}
+	/*
+  ========================================
+  FOOTER
+  ========================================
+	*/
+footer {
+	position: relative;
+	clear:both;
+	background: #fff;
+	padding: .2em;
+	margin: 0 .5em;
+	}
+.offset {
+	background:#eaeaed;
+	border: 2px dashed #fff;
+	padding-top: 38px;
+	position: relative;
+	width: 100px;
+	left: 45px;
+	}
+.absolute{
+	position: absolute;
+	right: 50px;
+	top:25px;
+	background: #444;
+	color: #fff;
+}
